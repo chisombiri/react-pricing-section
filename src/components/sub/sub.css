@@ -1,0 +1,83 @@
+.price-box {
+    width: 25rem;
+    text-align: center;
+    background-color: var(--color-white);
+    padding-bottom: 3rem;
+    margin: 2rem 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .price-box {
+        width: 35rem;
+        margin: 2rem auto;
+    }
+}
+
+.theme1 {
+    background: linear-gradient(
+        to right bottom,
+        rgba(95, 201, 52, 1),
+        rgba(39, 120, 7, 1)
+    );
+}
+
+.theme2 {
+    background: linear-gradient(
+        to right bottom,
+        rgba(234, 67, 187, 1),
+        rgba(80, 3, 71, 1)
+    );
+}
+
+.theme3 {
+    background: linear-gradient(
+        to right bottom,
+        rgba(238, 142, 33, 1),
+        rgba(104, 50, 5, 1)
+    );
+}
+
+h3 span {
+    font-size: 1.6rem;
+    vertical-align: middle;
+}
+
+.price{
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+ul li {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 1.2rem 0;
+    border-top: 1p solid var(--color-grey);
+}
+
+ul li:last-child {
+    border-bottom: 1px solid var(--color-grey);
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.4rem;
+    text-decoration: none;
+    background-color: var(--color-success);
+    padding: 1.2rem 3rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 2.4rem;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+button:hover {
+    font-size: 1.5rem;
+}
+

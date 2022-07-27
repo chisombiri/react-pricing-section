@@ -1,0 +1,50 @@
+.main {
+    background-color: #eeeeee;
+}
+
+.toggle-btn {
+    width: 45px;
+    height: 24px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3rem;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.toggled {
+    background: rgba(95, 201, 52, 1);
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: all 0.2s linear;
+}
+
+.move {
+    transform: translateX(22px);
+}
+
+.sub-plans {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+@media screen and (max-width: 600px) {
+    .sub-plans {
+        flex-direction: column;
+    }
+}
